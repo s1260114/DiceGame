@@ -27,6 +27,8 @@ public class DiceGame{
 	System.out.println("Die 2: " + dice.Die2Value());
 	int total =  dice.Die1Value() + dice.Die2Value();
 	System.out.println("Total value: " + total);
+	if(total > 6) System.out.println("You won");
+	else System.out.println("You lost");
     }
 }
 	
